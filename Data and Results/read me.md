@@ -8,6 +8,6 @@ Data files named "Frontiers_YEAR.csv" are the output files from Step 1 including
 
 The file named "AIC_BIC_for_all_years.csv" shows the AIC and BIC for all years to select between the Ordered Probit and Ordered response models. 
 
-The file names "Correlation_HDI_vs_ProposedMethod_for_all_years" shows the correlation between proposed method and traditional HDI over years. 
+The file named "Correlation_HDI_vs_ProposedMethod_for_all_years" shows the correlation between proposed method and traditional HDI over years. 
 
-The files named "Robustness_check_comparison_YEAR-YEAR.csv" includes the correlation of the proposed index with the consequitive years. 
+The files named "Robustness_check_comparison_YEAR-YEAR.csv" includes the correlation of the proposed index through the consequitive years. 
