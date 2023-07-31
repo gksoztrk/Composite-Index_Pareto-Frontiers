@@ -10,4 +10,4 @@ The file named "AIC_BIC_for_all_years.csv" shows the AIC and BIC for all years t
 
 The file named "Correlation_HDI_vs_ProposedMethod_for_all_years" shows the correlation between proposed method and traditional HDI over years. 
 
-The files named "Robustness_check_comparison_YEAR-YEAR.csv" includes the correlation of the proposed index through the consequitive years. 
+The files named "Robustness_check_comparison_YEAR-YEAR.csv" includes the correlation of the proposed index through the consequitive years.  
