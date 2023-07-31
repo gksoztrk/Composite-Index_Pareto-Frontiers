@@ -11,16 +11,16 @@ estat ic
 *smaller AIC and BIC show better fit of the model
 
 ologit frontier HE log_GNI Edu_gm
-predict myHDI, xb
+predict proposedHDI_score, xb
 
-gsort -frontier -myHDI
+gsort -frontier -proposedHDI_score
 
-egen myHDI_frontier_rank = rank(-myHDI), by(frontier) unique
+egen proposedHDI_frontier_rank = rank(-proposedHDI_score), by(frontier) unique
 
 
-gsort -myHDI
+gsort -proposedHDI
 
-egen myHDI_rank = rank(-myHDI)
+egen proposedHDI_rank = rank(-proposedHDI_score)
 
 export delimited using "C:\...\DataAndResults_2018.csv", replace
 
